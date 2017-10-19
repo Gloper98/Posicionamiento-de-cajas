@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+
+#box1{
+  position: static;
+  background-color: red;
+  height: 400px;
+  width: 400px;
+}
+
+#box2{
+  position: relative;
+  background-color: blue;
+  height: 400px;
+  width: 400px;
+  top: 100px;
+}
+
+.purple{
+  position: relative;
+  background-color: purple;
+  height: 200px;
+  width: 200px;
+  top:100px;
+  left: 100px;
+}
+
+.yellow{
+  position: static;
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+}
+
+.black{
+  position: static;
+  background-color: black;
+  height: 100px;
+  width: 100px;
+}
+
+.green{
+  position: relative;
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  left:100px;
+}
